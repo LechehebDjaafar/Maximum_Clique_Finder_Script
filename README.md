@@ -20,6 +20,7 @@ This program provides a graphical interface for finding the maximum clique in an
 1. **Set Graph Size**
    - Enter the number of vertices (1-15)
    - Click "Create Matrix" to generate the input matrix
+   ![Matrix Creation](images/matrix-creation.jpg)
 
 2. **Input Graph Structure**
    - Fill the adjacency matrix with 0s and 1s
@@ -27,6 +28,7 @@ This program provides a graphical interface for finding the maximum clique in an
    - 0 indicates no edge
    - Matrix is automatically made symmetric
    - Diagonal entries are locked to 0 (no self-loops)
+   ![Graph Input](images/graph-input.jpg)
 
 3. **Find Maximum Clique**
    - Click "Find Maximum Clique" to compute the result
@@ -35,10 +37,26 @@ This program provides a graphical interface for finding the maximum clique in an
      - Red nodes: vertices in the maximum clique
      - Red edges: edges in the maximum clique
      - Blue nodes: vertices not in the maximum clique
+   ![Maximum Clique](images/max-clique-result.jpg)
 
 4. **Additional Features**
    - "Load Example" button provides a sample graph
    - "Clear" button resets the matrix to all zeros
+   ![Additional Features](images/max-clique-result.jpg)
+
+## Screenshots
+
+### Main Interface
+![Main Interface](images/matrix-creation.jpg)
+*The main application interface showing the adjacency matrix and graph visualization*
+
+### Example Graph
+![Example Graph](images/graph-input.jpg)
+*A loaded example graph with its maximum clique highlighted*
+
+### Results View
+![Results View](images/max-clique-result.jpg)
+*Detailed view of the maximum clique computation results*
 
 ## Technical Details
 
